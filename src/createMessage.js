@@ -17,7 +17,7 @@ const createMessage = (time) => {
         message = `The current time is ${data[time.hour]} ${data[time.minutes]}`;
         break;
     }
-    return message+` in the ${morningNoon}`
+    return message+` ${morningNoon}`
 }
 
 export default createMessage;
