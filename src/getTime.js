@@ -1,6 +1,6 @@
 const getTime = () => {
     const date = new Date();
-    let hour = date.getHours();
+    let hour = date.getHours() + 1;
     const minutes = date.getMinutes();
     const amPm = hour <= 12 ? "am" : "pm";
     hour = hour % 12 || 12

@@ -2,7 +2,7 @@ import data from "./data.js";
 
 const createMessage = (time) => {
     let message = "";
-    const morningNoon = (time.amPm == "am")? "in the morning" : "in the noon"
+    const morningNoon = (time.amPm == "am")? "in the morning" : "in the evening"
     switch(time.minutes){
         case 0 : 
         message = `Its ${data[time.hour]} o'clock`;

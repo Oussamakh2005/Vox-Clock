@@ -2,7 +2,6 @@ import { ElevenLabsClient } from "elevenlabs";
 import fs from "fs";
 import { v4 as uuidV4 } from "uuid";
 import dotenv from "dotenv";
-import path from 'path';
 
 dotenv.config();
 
